@@ -24,8 +24,8 @@ export default defineConfig({
       'https://localhost:5173/api/v1': 'https://localhost:5001/api/v1'
     },
     https: {
-      key: fs.readFileSync('./certs/localhost_key_exp_4_19_25.pem'),
-      cert: fs.readFileSync('./certs/localhost_cert_exp_4_19_25.pem'),
+      key: fs.readFileSync('./.certs/localhost_key_exp_4_19_25.pem'),
+      cert: fs.readFileSync('./.certs/localhost_cert_exp_4_19_25.pem'),
     }
   },
 })
