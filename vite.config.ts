@@ -22,6 +22,7 @@ export default defineConfig({
   server: {
     proxy: {
       'https://localhost:5173/api/v1': 'https://localhost:5001/api/v1'
+      // '/api/v1': 'http://localhost:5001'
     },
     https: {
       key: fs.readFileSync('./.certs/localhost_key_exp_4_19_25.pem'),
