@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --base-size: 1.2rem;
+  --scale: 1.25;
+  --h1: calc(var(--h2) * var(--scale));
+  --h2: calc(var(--h3) * var(--scale));
+  --h3: calc(var(--h4) * var(--scale));
+  --h4: calc(var(--h5) * var(--scale));
+  --h5: calc(var(--h6) * var(--scale));
+  --h6: var(--base-size);
+  --small: calc(var(--base-size) / var(--scale));
+
+  --green: #597E52;
+  --blue: #8CB9BD;
+  --darkblue: #4793AF;
+  --white: #FEFBF6;
+  --litebrown: #FFFFEC;
+  --brown: #F1E4C3;
+  --darkbrown: #C6A969;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.darkmode {
+  background: black;
+  color: white;
+}
