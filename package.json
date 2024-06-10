@@ -1,14 +1,39 @@
 {
   "name": "authiscool-web",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Comparing different methods of auth",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aharasymiw/authiscool-server.git"
+  },
+  "keywords": [
+    "auth",
+    "authn",
+    "authz",
+    "authentication",
+    "login",
+    "password",
+    "passwords",
+    "username",
+    "passkeys",
+    "fido",
+    "yubikey",
+    "hash",
+    "salt",
+    "passwordless"
+  ],
+  "author": "Andrew Harasymiw",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/aharasymiw/authiscool-server/issues"
+  },
+  "homepage": "https://github.com/aharasymiw/authiscool-server#readme",
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "axios": "^1.7.2",
