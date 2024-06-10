@@ -2,6 +2,7 @@
   "name": "authiscool-web",
   "version": "1.0.0",
   "description": "Comparing different methods of auth",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "client": "vite",
