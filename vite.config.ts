@@ -20,13 +20,13 @@ export default defineConfig({
 
   // getting ssh to work locally
   server: {
-    proxy: {
-      'https://localhost:5173/api/v1': 'https://localhost:5001/api/v1'
-      // '/api/v1': 'http://localhost:5001'
-    },
     https: {
       key: fs.readFileSync('./.certs/localhost_key_exp_4_19_25.pem'),
       cert: fs.readFileSync('./.certs/localhost_cert_exp_4_19_25.pem'),
-    }
+    },
+    // proxy: {
+    //   // 'https://localhost:5174/api/v1': 'https://localhost:5001/api/v1'
+    //   'https://localhost:5174/api/v1': 'https://localhost:5001/api/v1'
+    // }
   },
 })
