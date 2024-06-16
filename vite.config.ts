@@ -25,8 +25,8 @@ export default defineConfig({
       cert: fs.readFileSync('./.certs/localhost_cert_exp_4_19_25.pem'),
     },
     // proxy: {
-    //   // 'https://localhost:5174/api/v1': 'https://localhost:5001/api/v1'
-    //   'https://localhost:5174/api/v1': 'https://localhost:5001/api/v1'
+    //   // 'https://localhost:5173/api/v1': 'https://localhost:5001/api/v1'
+    //   'https://localhost:5173/api/v1': 'https://localhost:5001/api/v1'
     // }
   },
 })

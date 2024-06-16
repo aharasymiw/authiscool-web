@@ -65,7 +65,7 @@ function Register({ setUser }) {
           <input type="text" name="display_name" placeholder="secure👍🏻user_01" required value={displayName} onChange={(e) => setDisplayName(e.target.value)} />
 
           <label htmlFor="email">Email</label>
-          <input type="email" name="email" placeholder="you@domain.com" required autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <input type="email" name="email" placeholder="you@domain.com" required autoComplete="username" value={email} onChange={(e) => setEmail(e.target.value)} />
 
           <label htmlFor="phone">Phone Number</label>
           <input type="tel" name="phone" placeholder="555-123-4567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autoComplete="tel-national" value={phone} onChange={(e) => setPhone(e.target.value)} />
